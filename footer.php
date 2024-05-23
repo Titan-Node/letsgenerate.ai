@@ -37,8 +37,8 @@
                             </div>
                             <div class="col-xl-2 col-lg-3 col-md-12 col-sm-6 col-auto tp_has_fade_anim" data-fade-from="right" data-delay=".7">
                                     <div class="h3_footer-social mb-20 mb-sm-0">
-                                        <strong>Stats</strong><br>
-                                        <p><a href="https://titan-node-orch.com:3000/d/oBIuIMPIz/letsgenerate-ai?orgId=1" target="_blank">Link To Stats</a></p>
+                                        <p><a href="https://github.com/Titan-Node/letsgenerate.ai" target="_blank">GitHub Repo</a><br>
+                                        <a href="https://titan-node-orch.com:3000/d/oBIuIMPIz/letsgenerate-ai?orgId=1" target="_blank">Link To Stats</a></p>
                                     </div>
                                 </div>
                         </div>
