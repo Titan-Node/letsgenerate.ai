@@ -1,9 +1,14 @@
 docker run -v ~/.lpData/:/root/.lpData -p 8937:8937 --network host livepeer/go-livepeer:ai-video \
--broadcaster \
+-gateway \
 -orchAddr https://[ip-or-domain]:8936 \
 -httpAddr [ip-or-domain]:8937 \
 -v 6 \
 -httpIngest \
 -network arbitrum-one-mainnet \
 -ethUrl [arb-url] \
+-maxTotalEV 100000000000000 \
+-maxTicketEV 9999999999999 \
+-ignoreMaxPriceIfNeeded=true \
+-orchMinLivepeerVersion=v0.7.8-ai.1 \
+-discoveryTimeout 1000ms \
 -ethPassword [password]

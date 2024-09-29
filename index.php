@@ -66,6 +66,14 @@
                                                                 <select class="h4_banner-form-option has-nice-select" id="t2i_model_id">
                                                                     <option selected>SG161222/RealVisXL_V4.0_Lightning</option>
                                                                 <option>ByteDance/SDXL-Lightning</option>
+                                                                <option>stabilityai/stable-diffusion-3-medium-diffusers</option>
+                                                                <option>runwayml/stable-diffusion-v1-5</option>
+                                                                <option>stabilityai/stable-diffusion-xl-base-1.0</option>
+                                                                <option>SG161222/RealVisXL_V4.0</option>
+                                                                <option>SG161222/Realistic_Vision_V6.0_B1_noVAE</option>
+                                                                <option>black-forest-labs/FLUX.1-dev</option>
+                                                                <option>black-forest-labs/FLUX.1-schnell</option>
+                                                                <option>kandinsky-community/kandinsky-3</option>
                                                                 </select>
                                                             </form>
 
