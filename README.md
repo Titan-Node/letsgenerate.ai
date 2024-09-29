@@ -35,9 +35,22 @@ sudo nginx -t
 systemctl start nginx
 ```
 
-
-RUN
+RUN LIVEPEER GATEWAY NODE ([node setup guide](https://docs.livepeer.org/ai/gateways/start-gateway))
 ```
+docker run -v ~/.lpData/:/root/.lpData -p 8937:8937 --network host livepeer/go-livepeer:ai-video \
+-broadcaster \
+-orchAddr https://[ip-or-domain]:8936 \
+-httpAddr [ip-or-domain]:8937 \
+-v 6 \
+-httpIngest \
+-network arbitrum-one-mainnet \
+-ethUrl [arb-url] \
+-ethPassword [password]
+```
+
+RUN API
+```
+cd gateway
 gunicorn \
 --certfile=/etc/letsencrypt/live/your_domain.com/fullchain.pem \
 --keyfile=/etc/letsencrypt/live/your_domain.com/privkey.pem \
